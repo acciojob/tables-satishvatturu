@@ -3,11 +3,50 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<p>List of all transactions</p>
+
+	<table class="table">
+		<thead>
+			<tr style="background-color: black; color: white;">
+				<th>#</th>
+				<th>From</th>
+				<th>To</th>
+				<th class="text-end">Amount($)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><b>1</b></td>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td class="text-end">1000</td>
+			</tr>
+			<tr>
+				<td><b>2</b></td>
+				<td>Jacob</td>
+				<td>Thornton</td>
+				<td class="text-end">1500</td>
+			</tr>
+			<tr>
+				<td><b>3</b></td>
+				<td>Jack</td>
+				<td>John</td>
+				<td class="text-end">2000</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3" class="fw-bold" font-monospace><b>Total</b></td>
+				<td class="text-end fw-bold" id="total"><b>4000</b></td>
+			</tr>
+		</tfoot>
+	</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
